@@ -1,13 +1,14 @@
 
 
-
-
-
-
 main{
-    background-color: white;
-}
+    background-color: #ffffff;
 
+}
+.misTitulos{
+    text-align: center;
+    font-size: 30px;
+    color:#273b09 ;
+}
 
 
 .nuestras__opciones {
