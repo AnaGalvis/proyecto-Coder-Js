@@ -63,6 +63,16 @@
        </section>
        <section>
             <h2> Listo Para Ordenar? </h2>
+            <form action="http://google.com" id="registro">
+                <label for="nombre">Nombre: </label>
+                <input type="nombre" id ="nombre">
+                <label for="email">Email: </label>
+                <input type="email" id="email" ><br>
+                <button type="submit"> Enviar </button>
+                <button type="reset"> Borrar </button>
+            </form>
+
+            <div id="mistake"></div>
 
        </section>
 
@@ -70,7 +80,12 @@
             <h2 id="title">Te gusto lo que comiste hoy? Nos dejas un comentario?</h2>
             <input type="text" placeholder="Comentario" id="Review">
             <button type = "submit" id = "addComentario" > Agregar </button>
-            <ul id="oursReviews"></ul>
+            <ul id="oursReviews">
+                <li>Delicioso</li>
+                <li>Me encanta
+                    
+                </li>
+            </ul>
 
 
         </section>
@@ -79,8 +94,6 @@
     </main>
       
 <script src="./js/scriptDOM.js"></script>
-<script src= "./js/script3.js"></script>
-<script src = "./js/script.js"></script>
 <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
  <!--FOOTER DE LA PAGINA -->
  <footer>

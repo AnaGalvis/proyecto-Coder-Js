@@ -53,4 +53,27 @@ function  agregar_item (item){
     lista.appendChild(li);    
 
 }
+//minuto 131
+const form = document.querySelector("#registro")
+const nombre = document.querySelector("#nombre")
+const email = document.querySelector("#email")
 
+console.log(form)
+console.log(nombre.value)
+console.log(email.value)
+
+nombre.addEventListener('input', ()=>{
+    console.log(nombre.value)
+})
+
+
+form.addEventListener('submit', (event) =>{
+    event.preventDefault()
+    
+
+    if(nombre.value==""){
+        const p= document.createElement("p")
+        p.textContent= "Por favor ingrese su nombre"
+        document.querySelector('#mistake').appendChild(p)
+    }
+})
